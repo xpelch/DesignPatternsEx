@@ -2,6 +2,7 @@ package composite.shapes;
 
 import java.awt.*;
 
+// The base class for all shapes. (Component)
 public abstract class BaseShape implements Shape {
     public int x;
     public int y;

@@ -2,6 +2,7 @@ package composite.shapes;
 
 import java.awt.*;
 
+// Dot is a leaf in the tree, the root is BaseShape/Shape.
 public class Dot extends BaseShape {
     private final int DOT_SIZE = 3;
 

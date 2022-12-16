@@ -2,6 +2,7 @@ package composite.shapes;
 
 import java.awt.*;
 
+// The base interface for all shapes. (Component)
 public interface Shape {
     int getX();
     int getY();

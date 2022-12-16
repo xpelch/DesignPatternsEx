@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// Composite, doesn't know about the leafs (Circle, Rectangle, Dot).
+// But it knows about the root (Shape).
+// It's a container for other shapes.
+
 public class CompoundShape extends BaseShape {
     protected List<Shape> children = new ArrayList<>();
 

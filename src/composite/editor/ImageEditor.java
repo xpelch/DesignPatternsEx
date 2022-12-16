@@ -9,9 +9,10 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+// The ImageEditor class is the client in the Composite pattern. (Client)
 public class ImageEditor {
-    private EditorCanvas canvas;
-    private CompoundShape allShapes = new CompoundShape();
+    private final EditorCanvas canvas;
+    private final CompoundShape allShapes = new CompoundShape();
 
     public ImageEditor() {
         canvas = new EditorCanvas();

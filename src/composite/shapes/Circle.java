@@ -2,6 +2,7 @@ package composite.shapes;
 
 import java.awt.*;
 
+// Circle is a leaf in the tree, the root is BaseShape/Shape.
 public class Circle extends BaseShape {
     public int radius;
 

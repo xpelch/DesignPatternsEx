@@ -2,6 +2,7 @@ package composite.shapes;
 
 import java.awt.*;
 
+// Rectangle is a leaf in the tree, the root is BaseShape/Shape.
 public class Rectangle extends BaseShape{
     public int width;
     public int height;
